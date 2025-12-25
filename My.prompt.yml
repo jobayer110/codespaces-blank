@@ -2,5 +2,28 @@ messages:
   - role: system
     content: You are a helpful assistant that breaks down action items from a meeting
   - role: user
-    content: 'Pull out the action items from this meeting transcript: {{input}}'
+    content: >-
+      Pull out the action items from this meeting transcript: {{input}}Here are
+      the action items from the meeting held on October 25, 2023:
+
+
+      1. **Aisha**: Update JIRA with details on the authentication issue by the
+      end of today (October 25, 2023).
+
+      2. **Ravi**: Confirm the UI handoff date by Friday (October 27, 2023).
+
+      3. **Elena, Michael, and Jamal**: Meet tomorrow (October 26, 2023) at 2 PM
+      to draft a revised timeline for Q4 deliverables.
+
+      4. **Liam**: Pull data on the top 10 recurring customer support bugs and
+      prepare it for sprint planning on Monday (October 30, 2023).
+
+      5. **Chloe and Fatima**: Meet later today (October 25, 2023) to review and
+      scope the client feedback on customization options for reporting features.
+
+      6. **Mei-Lin**: Send the full meeting notes later today (October 25,
+      2023).
+
+      7. **Carlos**: Schedule the next meeting for Wednesday, November 1, 2023,
+      and send the calendar invite by the end of today (October 25, 2023).
 model: openai/gpt-4o
